@@ -8,20 +8,20 @@
 
 .header {
     background-color: #1F2937;
-    height:30vh;}
+    height:10vh;}
 
 section-two {
-    height:25vh;}
+    height:20vh;}
 
 section-three {
-    height:25vh;
+    height:20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;}
 
 section-four {
-    height:15vh;}
+    height:20vh;}
 
 section-footer {
     background-color:#1D2937;
@@ -29,4 +29,4 @@ section-footer {
     align-items: center;
     justify-content: center;
     color:white;
-    height:5vh;}
+    height:10vh;}
