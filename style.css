@@ -1,0 +1,32 @@
+
+/*style-sheet*/
+
+
+
+.div, .a, .p {
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.header {
+    background-color: #1F2937;
+    height:30vh;}
+
+section-two {
+    height:25vh;}
+
+section-three {
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;}
+
+section-four {
+    height:15vh;}
+
+section-footer {
+    background-color:#1D2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    height:5vh;}
