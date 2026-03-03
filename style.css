@@ -4,8 +4,8 @@
 body {
     display: flex;
     flex-direction: column;
-    height:100vh;
-    width: 100vw;
+    height:100%;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 header {
@@ -15,9 +15,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    gap:2vw;
     height:10%;}
 
 .shoes {
@@ -30,8 +27,7 @@ header {
 .socks {
     justify-content: flex-end;
     display: flex;
-    flex-direction: row;
-    gap:2vw;}
+    flex-direction: row;}
 
 /*section one code*/
 .section-one {
@@ -59,12 +55,12 @@ s-one-p-two {
     background-color: #3882F6;
     color: white;
     border: solid #3882F6;
-    border-width: 1px;
-    padding-left:15px;
-    padding-right: 15px;
+    border-width: 1%;
+    padding-left:15%;
+    padding-right: 15%;
     justify-content: space-between;
     width:fit-content;
-    border-radius: 5px;
+    border-radius: 5%;
     margin-bottom: 10%;
     margin-top:1%;}
 
@@ -72,7 +68,7 @@ s-one-p-two {
     border: solid slategray;
     background-color: slategray;
     size: 80%;
-    border-radius: 5px;
+    border-radius: 5%;
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 3%;
@@ -88,8 +84,8 @@ s-one-p-two {
     height:20%;
     display: flex;
     flex-direction: column;
-    margin-left: 3vw;
-    margin-right:3vw;}
+    margin-left: 3%;
+    margin-right:3%;}
 
 .two-header {
     display:flex;
@@ -155,7 +151,7 @@ s-one-p-two {
     justify-content: space-between;
     align-self: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 5%;
     background-color: #3882F6;
     height: 10%;
     padding-left:2%;
@@ -173,14 +169,14 @@ s-one-p-two {
     color: white;
     border: solid white;
     text-wrap:nowrap;
-    border-width: 1px;
+    border-width: 1%;
     display: flex;
     justify-content: space-between;
     width:fit-content;
-    border-radius: 5px;
-    padding-right: 30px;
-    padding-left:30px;
-    border-radius: 5px;}
+    border-radius: 5%;
+    padding-right: 30%;
+    padding-left:30%;
+    border-radius: 5%;}
     
 /*footer code*/
 .section-footer {
