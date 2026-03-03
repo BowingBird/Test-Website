@@ -1,29 +1,190 @@
 /* style.css */
 
 
-.body {
+.section-one {
+    color:white;
+    align-items: flex-start;
     display: flex;
-    height:100vh;
-    width: 100vw;}
-
-.header {
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #1F2937;
-    height:10vh;}
+    height:20vh;
+    flex-wrap: wrap;}
 
-section-two {
-    height:20vh;}
+.part-one {
+    justify-self: center;
+    font-size: 48px;
+    font-weight: 900;}
 
-section-three {
+.section-one button {
+    background-color: #3882F6;
+    color: white;
+    border: solid #3882F6;
+    border-width: 1px;
+    padding-left:15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    width:fit-content;
+    border-radius: 5px;}  
+
+.false-image {
+    border: solid slategray;
+    background-color: slategray;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self:center;
+    justify-self:center ;}
+
+
+/*VISUAL BREAK HERE VISUAL BREAK HERE */
+    
+.section-two {
     height:20vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;}
+
+.two-header {
+    display:flex;
+    justify-content:center;
+    padding:5px;}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+
+
+
+
+
+
+
+
+
+
+
+/*VISUAL BREAK HERE VISUAL BREAK HERE */
+
+.section-four {
+    height:20vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+                    border:solid black;}
+
+.long-sleeves {
+    flex-direction: column;
     align-items: center;
-    background-color: #E5E7EB;}
+    border-radius: 5px;
+    border-width: 4px;
+    background-color: #3882F6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 80px;}
 
-section-four {
-    height:20vh;}
+button {
+    display: flex;
+    background-color: #3882F6;
+    column:2;
+    color: white;
+    border: solid white;
+    border-width: 8px;
+    width:fit-content;
+    height:fit-content;
+    padding-right: 15px;
+    padding-left:15px;
+    border-radius: 5px;
+    align-self:flex-end;
+    justify-self: center;}  
 
-section-footer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*don't touch, this is good*/
+body {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    gap:2vw;
+    height:10vh;}
+
+.shoes {
+    justify-content: flex-start;
+    font-weight: bolder;}
+
+.socks {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap:2vw;}
+
+.section-three {
+    height:20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top:6vw;
+    padding-bottom: 6vw;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 300;
+    color: #1F2937;}
+
+.section-three p {
+    font-weight: bold;}
+
+.section-four button {
+    background-color: #3882F6;
+    color: white;
+    border: solid white;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    width:fit-content;
+    border-radius: 5px;}    
+
+.section-footer {
     background-color:#1D2937;
     display: flex;
     align-items: center;
