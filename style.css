@@ -1,70 +1,5 @@
 /* style.css */
 
-.section-four {
-    height:20%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-wrap: nowrap;}
-
-.long-sleeves {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #3882F6;
-    height: 10%;
-    padding-left:2%;
-    padding-right: 10%;
-    padding-top:3%;
-    padding-bottom: 3%;}
-
-.text-only {
-    align-content: center;
-    padding-right: 30%;
-    margin-left: 3%;}
-
-button {
-    background-color: #3882F6;
-    color: white;
-    border: solid black;
-    text-wrap: nowrap;
-    aspect-ratio: 10/1;
-    width: 10%;
-    padding-right: 30px;
-    padding-left:30px;
-    border-radius: 5px;}
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*don't touch, this is good*/
 /*header code*/
 body {
     display: flex;
@@ -177,10 +112,9 @@ s-one-p-two {
 .square {
     margin-bottom:2%;
     width: fit-content%;
-    aspect-ratio:1/1;
+    aspect-ratio: 1/1;
     border: solid #3882F6;
-    border-radius: 15px;
-    border-width:4px;}
+    border-radius: 15px;}
 
 .examples-subsection-one, .examples-subsection-two, .examples-subsection-three, .examples-subsection-four {
     width:12%;}
@@ -207,16 +141,47 @@ s-one-p-two {
     margin-bottom:1%;}
 
 /*section four code*/
+.section-four {
+    height:20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-wrap: nowrap;}
+
+.long-sleeves {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    height: 10%;
+    padding-left:2%;
+    padding-right: 10%;
+    padding-top:3%;
+    padding-bottom: 3%;}
+
+.text-only {
+    align-content: center;
+    padding-right: 30%;
+    margin-left: 3%;}
+    
 .section-four button {
     background-color: #3882F6;
     color: white;
     border: solid white;
+    text-wrap:nowrap;
     border-width: 1px;
     display: flex;
     justify-content: space-between;
     width:fit-content;
-    border-radius: 5px;}    
-
+    border-radius: 5px;
+    padding-right: 30px;
+    padding-left:30px;
+    border-radius: 5px;}
+    
 /*footer code*/
 .section-footer {
     background-color:#1D2937;
