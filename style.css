@@ -141,8 +141,7 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-wrap: nowrap;}
+    justify-content: space-around;}
 
 .long-sleeves {
     flex-direction: row;
@@ -157,12 +156,14 @@ header {
     padding-bottom:1%;
     padding-right: 5%;
     margin-top:1%;
-    margin-bottom:2%;}
+    margin-bottom:2%;
+    text-wrap: wrap;}
 
 .text-only {
     align-content: center;
     margin-left:3%;
-    margin-right:3%;}
+    margin-right:3%;
+    text-wrap: wrap;}
     
 .section-four button {
     background-color: #3882F6;
